@@ -19,7 +19,7 @@ endmodule*/
 endmodule*/
 
 //Structural models
-module full_adder(a,b,c,sum,carry);
+/*module full_adder(a,b,c,sum,carry);
 	input a,b,c;
 	output sum,carry;
 	wire w1,w2,w3;
@@ -42,7 +42,7 @@ module top;
 			$display("A=%b B=%b C=%b Sum=%b Carry=%b",a,b,c,sum,carry);
 		end
 	end
-endmodule
+endmodule*/
 
 /*output
 # A=1 B=0 C=0 Sum=1 Carry=0
