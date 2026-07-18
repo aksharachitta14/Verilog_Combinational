@@ -1,5 +1,3 @@
-//Design Half_Subtractor using Behavioural,Dataflow,Structural models
-
 //Behavioural Model
 /*module half_sub(a,b,difference,borrow);
 	input a,b;

@@ -1,0 +1,36 @@
+//Left Triangle Pattern 
+module left_triangle;
+	integer i,j;
+	initial begin
+		for(i=1;i<5;i=i+1)begin
+			for(j=1;j<=i;j=j+1)begin
+				$write("*");
+			end
+			$display("");
+		end
+	end
+endmodule
+
+/*
+case1:
+i=1//rows
+j=1
+output:*
+case2
+i=2
+j=2
+output:
+case3
+i=3
+j=3
+output=***
+*/
+/*output
+
+*
+**
+***
+****
+
+*/
+
